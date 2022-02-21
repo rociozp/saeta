@@ -70,7 +70,7 @@ music.playTone(494, music.beat(BeatFraction.Whole))
 music.playTone(440, music.beat(BeatFraction.Whole))
 music.playTone(392, music.beat(BeatFraction.Whole))
 music.playTone(349, music.beat(BeatFraction.Whole))
-music.rest(music.beat(BeatFraction.Breve))
+music.playTone(330, music.beat(BeatFraction.Breve))
 basic.forever(function () {
 	
 })
