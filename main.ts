@@ -87,6 +87,7 @@ music.playTone(440, music.beat(BeatFraction.Whole))
 music.playTone(392, music.beat(BeatFraction.Whole))
 music.playTone(349, music.beat(BeatFraction.Whole))
 music.playTone(330, music.beat(BeatFraction.Breve))
+maqueen.motorStop(maqueen.Motors.All)
 basic.forever(function () {
 	
 })
